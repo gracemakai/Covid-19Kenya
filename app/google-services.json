@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "596274532639",
+    "firebase_url": "https://covid-19-kenya.firebaseio.com",
+    "project_id": "covid-19-kenya",
+    "storage_bucket": "covid-19-kenya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596274532639:android:d87fa2d2f7147b38f4202a",
+        "android_client_info": {
+          "package_name": "com.grace.covid_19kenya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596274532639-s8n4s71tj28ddg31tar2ajr0euq9abt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grace.covid_19kenya",
+            "certificate_hash": "2c12c1c348baa31d23ede3a09d1892c1d64eff90"
+          }
+        },
+        {
+          "client_id": "596274532639-4fb5svfn1iotne4qr73sov64vb45e1ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2orhJTH3EM9P26e-r_jmHpcWtlszxxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596274532639-4fb5svfn1iotne4qr73sov64vb45e1ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

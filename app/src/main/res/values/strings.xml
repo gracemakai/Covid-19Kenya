@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Covid-19 Kenya</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Covid-19</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_cases">Cases</string>
+    <string name="menu_history">About</string>
+    <string name="menu_prevention">Prevention</string>
+    <string name="menu_symptoms">Symptoms</string>
+    <string name="menu_treatment">Treatment</string>
+    <string name="menu_send">Send</string>
+    <string name="kenya">Kenya</string>
+    <string name="reported">Reported</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="do_the_five">Do the FIVE</string>
+    <string name="help_stop_coronavirus">Help stop coronavirus</string>
+    <string name="they_include">They include:</string>
+    <string name="world">World</string>
+    <string name="refresh">Refresh</string>
+
+    <string-array name="prevention">
+        <item>Wash hands often</item>
+        <item>Don\'t touch your face</item>
+        <item>Social distance</item>
+        <item>Cough into your elbow</item>
+        <item>Stay home if you can</item>
+    </string-array>
+
+    <string-array name="symptoms">
+        <item>Dry cough</item>
+        <item>Fever</item>
+        <item>Tiredness</item>
+        <item>Difficulty breathing</item>
+    </string-array>
+
+    <string-array name="selfcare">
+        <item>Rest and sleep</item>
+        <item>Keep warm</item>
+        <item>Drink plenty of sleep</item>
+        <item>Use a room humidifier or take a hot shower to help ease a sore throat and cough</item>
+    </string-array>
+    
+    <string-array name="phone">
+        <item>Nairobi 0800721316 (tollfree) / 0732353535</item>
+        <item>Garissa 0111207207 / 0110040836 / 011040708</item>
+        <item>Turkana 0758722023</item>
+        <item>Mombasa 0758549212</item>
+        <item>Nakuru  0724320853 / 0722337018</item>
+        <item>Uasin Gishu   0754027027</item>
+
+
+    </string-array>
+</resources>
