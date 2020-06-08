@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,7 +31,7 @@ public class cases extends Fragment {
 
     private TextView KReported, KRecovered, KDeaths;
     private TextView WReported, WRecovered, WDeaths;
-    private Button Refresh;
+    private  ProgressBar progressBar;
     private OkHttpClient.Builder builder = new OkHttpClient.Builder();
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -42,17 +43,24 @@ public class cases extends Fragment {
         WReported = root.findViewById(R.id.world_reported);
         WRecovered = root.findViewById(R.id.world_recovered);
         WDeaths = root.findViewById(R.id.world_death);
-        Refresh = root.findViewById(R.id.Refresh);
+        Button refresh = root.findViewById(R.id.Refresh);
+        progressBar = root.findViewById(R.id.progress);
 
+        progressBar.setVisibility(View.VISIBLE);
         ReadDatabase();
         ReadDatabaseWorld();
+        progressBar.setVisibility(View.INVISIBLE);
+        Toast.makeText(getContext(), "Up to date", Toast.LENGTH_SHORT).show();
 
-        Refresh.setOnClickListener(new View.OnClickListener() {
+        refresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                progressBar.setVisibility(View.VISIBLE);
                 ReadDatabase();
                 ReadDatabaseWorld();
+                progressBar.setVisibility(View.INVISIBLE);
+                Toast.makeText(getContext(), "Up to date", Toast.LENGTH_SHORT).show();
+
             }
         });
         return root;

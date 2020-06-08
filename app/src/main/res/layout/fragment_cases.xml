@@ -40,7 +40,7 @@
                         android:id="@+id/kenya_reported"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="50"
+                        android:text="0"
                         android:textSize="16sp" />
 
                 </LinearLayout>
@@ -61,7 +61,7 @@
                         android:id="@+id/kenya_recovered"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1"
+                        android:text="0"
                         android:textSize="16sp"/>
 
                 </LinearLayout>
@@ -82,7 +82,7 @@
                         android:id="@+id/kenya_deaths"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1"
+                        android:text="0"
                         android:textSize="16sp"/>
 
                 </LinearLayout>
@@ -124,7 +124,7 @@
                         android:id="@+id/world_reported"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="797490"
+                        android:text="0"
                         android:textSize="16sp"/>
 
                 </LinearLayout>
@@ -145,7 +145,7 @@
                         android:id="@+id/world_recovered"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="161542"
+                        android:text="0"
                         android:textSize="16sp"/>
 
                 </LinearLayout>
@@ -166,7 +166,7 @@
                         android:id="@+id/world_death"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="38540"
+                        android:text="0"
                         android:textSize="16sp"
                         />
 
@@ -182,5 +182,16 @@
             android:layout_marginTop="50dp"
             android:text="@string/refresh"
             android:background="@color/buttonColor"/>
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:indeterminate="true"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/progressbarColor"
+            android:visibility="invisible"/>
 
 </LinearLayout>
